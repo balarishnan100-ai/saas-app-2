@@ -1,0 +1,176 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+    top:50px;
+    bottom: 1px;
+    gap: 25px;
+    background-color: rgb(78, 74, 74);
+    width: auto;
+    height: auto;
+    
+
+}
+
+body{
+    margin: opx;
+    background-color: rgb(78, 74, 74);
+    
+}
+#h_ofs{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    flex-wrap: wrap;
+    
+
+}
+#hed1{
+    position: relative;
+    display: inline;
+    color: white;
+}
+#hed2{
+    position: relative;
+    left: 5px;
+    display: inline;
+    color: #ffd900dc;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    
+}
+#pro{
+    background-color: #ffd900dc;
+    color: black;
+    width: 250px;
+    height: 350px;
+    border: 2px ;
+    border-radius: 15px;
+    margin-top: 48px;
+    color: black;      
+}
+#pro:hover{
+    animation-name: sideup;
+    animation-duration: 0.5s;
+    background-color: #ffd900;
+
+}
+#plan_pro{
+    list-style: none;
+}
+#pro_button{
+    color: #ffd900e3;
+    background-color:black;
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+    padding: 8px;
+    position: relative;
+    left:15px;
+    top: 18px;
+}
+#pro_button:hover{
+    animation-name: sidedown;
+    animation-duration: 1s;
+}
+#basic{
+    background-color:rgb(0, 0, 0);
+    display: inline;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    position: relative;
+    bottom: -25px;
+
+   
+    
+}
+#basic:hover{
+    animation-name: sideup;
+    animation-duration: 0.5s;
+    background-color: rgba(66, 62, 62, 0.854);
+
+}
+
+#premium{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 15px;
+    margin-top: 70px;
+  
+ 
+}
+#premium:hover{
+     animation-name: sideup;
+    animation-duration: 0.5s;
+    background-color: rgba(66, 62, 62, 0.854);
+
+}
+#bestch{
+    margin-top: 0px;
+    background-color: rgb(18, 18, 19);
+    color: #FFD700;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 5px;
+    position: relative;
+    left: 55px;
+    top: -12px;
+    text-align: center;
+    margin-top: 5px;
+    width: 120px;
+}
+pro1{
+   margin-top: 0px;
+}
+.plan_detail{
+    list-style: none;
+    color: white;
+    
+
+
+}
+#rs{
+    margin-left: 5px;
+    text-align: center;
+    color: white;
+}
+.but{
+    width: 80%;
+    margin-left: 25px;
+    border-radius:5px;
+    padding: 8px;
+    margin-top: 18px;
+    border-style: none;
+    color: #FFD700;
+    background-color: black;
+   
+    
+}
+.but:hover{
+     animation-name: sidedown;
+    animation-duration: 0.5s;
+    
+}
+.t1{
+    margin-left: 2px;
+    text-align: center;
+    color:white
+}
+@keyframes sidedown {
+    from{transform: translateY(5px) }
+    
+}
+@keyframes sideup{
+     from{transform: translateY(12px) }
+}
+
